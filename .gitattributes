@@ -1,1 +1,2 @@
 data_tables_plink_file_wide.tsv filter=lfs diff=lfs merge=lfs -text
+data_tables_population_descriptor.tsv filter=lfs diff=lfs merge=lfs -text
