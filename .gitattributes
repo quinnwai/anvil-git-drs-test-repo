@@ -3,3 +3,4 @@ data_tables_population_descriptor.tsv filter=lfs diff=lfs merge=lfs -text
 data_tables_sequencing_file.tsv filter=lfs diff=lfs merge=lfs -text
 data_tables_sequencing_dataset.tsv filter=lfs diff=lfs merge=lfs -text
 data_tables_subject.tsv filter=lfs diff=lfs merge=lfs -text
+data_tables_sample.tsv filter=lfs diff=lfs merge=lfs -text
