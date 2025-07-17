@@ -20,11 +20,26 @@
     ```
 (in the future this will be a Go binary)
 
+### Data Explorer
+
+ 1. Open https://explore.anvilproject.org/
+ 2. select the "Files" tab -> Use filters to get the files you want
+ 3. Download the file manifest: select "Export" -> "Request File Manifest"
+
+### Generate SHA256 hashes for Files
+
+Open the file manifest downloaded from the Data Explorer. Do a quick check if there are any sha codes (CMD+F for "sha256"). If not, you will need to generate them and add them to the manifest:
+ 1. Create a sha code
+ 2. Make use of the [sha256 workflow](https://dockstore.org/workflows/github.com/data-metrics/sha256/wdl:master?tab=info) on Dockstore to create sha codes
+ 3. Add those codes to the original manifest
+
 ### Cloning this repo
 
 ```
 git clone https://github.com/quinnwai/super-cool-anvil-analysis.git
 git drs init --anvil
+# in the config file, change project to a Google project you have billing access to
+# typically a Terra project found via workspace homepage
 ```
 
 ## Quickstart
